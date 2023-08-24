@@ -1,0 +1,185 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #f8f8f8; /* Add background color if desired */
+}
+
+/* Logo and title style */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    margin-right: 10px; /* Add some space between logo and title */
+}
+
+.tituloNav {
+    font-size: 24px; 
+    margin: 0; 
+}
+
+/* Navigation style */
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+/* Index section style */
+.index-section {
+    position: relative;
+    background-color: #764f30; /* Fallback background color */
+}
+
+/* Style for the index-image background */
+.index-image {
+    position: absolute;
+    top: 20;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Images/backgroundIndex.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;  
+}
+
+/* Style for the text container */
+.text-container {
+    position: relative;
+    text-align: center;
+    padding: 100px 0; 
+}
+/* Style for the button */
+.reservations-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+    color: bisque;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.reservations-button:hover {
+    background-color: #333;
+}
+
+/* Style for the titulo and titulo2 */
+.titulo {
+    font-size: 65px; 
+    margin: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+    .titulo2 {
+        font-size: 30px;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.cacaoFruit {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly; 
+}
+
+.image-container {
+    flex: 1;
+    padding-right: 20px; /* Add some spacing between the image and text */
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.text-container1 {
+    flex: 1;
+}
+.title1 {
+    font-family: 'Open Sans', sans-serif; 
+    color: brown; 
+}
+
+.paragraph1 {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 900; 
+    color: black; 
+}
+.video-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text-container2 {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.text-container2 .title2 {
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+}
+
+.text-container2 .paragraph2  {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 900; 
+    color: black; 
+}
+.text-container2 .paragraph3  {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 900; 
+    color: black; 
+}
+.video-container {
+    flex: 1;
+    max-width: 60%; /* Adjust this to control the maximum width of the video */
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+}
+.padding-section {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+
+@media (max-width: 768px) {
+    .padding-section {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+}
+.footer {
+    background-color: #764f30;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
